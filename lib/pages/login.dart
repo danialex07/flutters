@@ -68,9 +68,8 @@ class LoginView extends StatelessWidget {
               const SizedBox(height: 30.0),
               ElevatedButton(
                 onPressed: () {
-                  // Implementa la lógica de autenticación aquí
-                  Navigator.pushNamed(context, '/');
-                },
+              Navigator.pushNamed(context, '/pagestart');
+            },
                 style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
